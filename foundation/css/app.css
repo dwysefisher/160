@@ -1,0 +1,91 @@
+body {
+	font-family: "chaparral-pro", "Helvetica", Helvetica, Arial, sans-serif !important;
+	font-weight: 400;
+	font-size: 20px;
+    height:100%;
+}
+
+/*.parallax-background {
+	background-color: #cc9900;
+	height: 600px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+}*/
+
+.intro-text {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	margin-top: 15%;
+}
+/*.parallax-content {
+	max-width: 100%;
+	position: relative;
+	top: 500px;
+	padding: 50px;
+	font-size: 20px;
+	background-color: #fff;
+}*/
+
+.parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
+    position : relative;
+    height : 50vh;
+    text-indent : -9999px !important;
+    background-attachment : fixed;
+    background-position   : top center;
+    background-size       : cover;
+    
+    &:nth-child( 2n ) {
+      box-shadow : inset 0 0 1em #111; 
+    }
+  }
+    
+  .bg__foo, .bg__bazz {height : 100vh;}
+  
+  .bg__foo {background-image : url(http://www.eureka.edu/d-l/ec-bell-fb.jpg);}
+
+  .bg__bar {background-image : url(http://www.eureka.edu/d-l/ec_sign960.jpg);}
+
+  .bg__baz {background-image : url(http://www.eureka.edu/d-l/lightpost_signs.jpg);}
+
+  .bg__bazz {background-image : url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg);}
+  
+  .bg__break {box-shadow : inset 0 0 1em #111; background-image : url(http://www.eureka.edu/d-l/ec-signs.jpg);}
+  
+  .capture {
+    float : right;
+    width : 200px;
+    padding : 1em;
+    margin  : -1.5em 1em 0 0;
+    text-indent : 0;
+    background : rgba( #a6a6a6, 0.75 );
+    box-shadow : 0 1px 0.125em #333;
+  }
+}
+
+article {
+  .container {width : 600px;
+    margin : 0 auto; }
+  header {position : relative;
+    margin : -5em 0 0 0;
+    padding : 1em;
+    text-align : left;
+    font-size : 2em;
+    color : #333;
+    background-color : rgba( #cc9900, 0.75 );}
+  
+  h1, h2 {margin : 0 0 0.333em;}
+  
+  section {padding : 3em;    
+    &.parallax {margin  : 0; padding : 0; }
+  }
+}
+
+a {
+  &, &:visited, &:active {color : #f66; }
+}
