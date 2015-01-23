@@ -6,6 +6,12 @@ body {
     background-color: #a6a6a6;
 }
 
+#wrapper1 {
+    background-image: url(http://placehold.it/1000x400/ffffff) ;
+    background-repeat: no-repeat center center;
+    width: 100% !important;
+    z-index: 100;}
+
 .intro-text {
 	font-size: 40px;
 	color: #fff;
@@ -36,7 +42,7 @@ body {
 
   .bg__bazz {background-image : url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg);}
   
-  .bg__break {background-image : url(http://www.eureka.edu/d-l/ec-signs.jpg); padding:2em; height: 100vh;}
+  .bg__break {background-image : url(http://www.eureka.edu/d-l/ec-signs.jpg); padding:2em; height: 50vh;}
   
   .capture {
     float : right;
@@ -71,4 +77,6 @@ a {
   &, &:visited, &:active {color : #f66; }
 }
 
-.container p {padding: 1em 0;}
+.container p {padding: 0;}
+
+.one {background-color: #FFF; padding: 1em 0; padding-top:1.5em;}
