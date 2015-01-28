@@ -12,6 +12,17 @@ body {
     width: 100% !important;
     z-index: 100;}
 
+.hero-bg{
+		background: url(../img/Burgess-classroom1930s-tw.jpg) no-repeat center;
+		height: 300px;
+		max-width: 100%;
+		padding: 2em;
+		margin: 0 auto;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
 .intro-text {
 	font-size: 40px;
 	color: #fff;
@@ -80,3 +91,42 @@ a {
 .container p {padding: 0;}
 
 .one {background-color: #FFF; padding: 1em; padding-top:1.5em;}
+
+/* ======================== TABLET STYLING ========================== */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+	.hero-bg {
+	  height: 500px;
+	  max-width: 100%;
+	}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+	.header-image-bg {
+	  height: 500px;
+	  max-width: 100%;
+	}
+
+}
+/* ======================== DESKTOP STYLING ========================== */
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) {
+/* Styles */
+	
+	.hero-bg {height: 900px;}
+}	
+	
+	
+	
+	
